@@ -16,6 +16,7 @@ html {
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    /* This will give background */
   }
   
   #heading {
@@ -34,7 +35,7 @@ html {
     border-bottom: 0;
   }
   
-  input:checked+p {
+  input:checked+p {                 /* purple line is given by this */
     text-decoration: line-through;
     text-decoration-color: #A683E3;
   }
